@@ -45,7 +45,10 @@ desc: a long description of this house, used to align with the bidders' persona.
 </pre>
 Please find a list of houses to choose from in `data/houses_pool.jsonl`.
 ### Run Simulation
-Confirm y
-
+Confirm you have the bidder and houses configuration in `data` folder. In HARBOR's directory terminal
+<pre>
+export OPENAI_API_KEY="your openai key"
+python3 run_auction.py --repeat 1 --threads 3 --profile --strategy --folder data
+</pre>
 ### Acknowledge
 The implementation of HARBOR has built upon the great work of AucArena <url>https://github.com/jiangjiechen/auction-arena/tree/main</url>. Please visit their work if you wish to conduct more modifications.
