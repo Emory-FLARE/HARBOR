@@ -1,5 +1,5 @@
 # HARBOR
-HARBOR: exploring persona dynamics in multi-agent competition
+HARBOR: Exploring Persona Dynamics in Multi-agent Competition (AACL 2025) Under construction
 
 ### Data & Configuration
 1. Clone the repo and install packages in your preferred conda or virtual env
